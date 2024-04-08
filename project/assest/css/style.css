@@ -1,0 +1,218 @@
+body{
+    background-color: #edede4;
+    margin: 0;
+    margin-bottom: 2000px;
+}
+
+header{
+    background-color: white;
+} 
+.container{
+    width: 75%;
+    margin:auto;
+}
+
+.logo{
+    display:inline-block;
+    width: 18%;
+    vertical-align: middle;
+}
+
+.logo img{
+height: 100px;
+}
+
+
+.nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav a{
+text-decoration: none;
+font-size: 25px;
+color: red;
+}
+
+.nav ul{
+text-align: center;
+text-decoration: none;
+margin: 0%;
+}
+
+.nav a:hover{
+   background-color: red;
+   border-radius: 5px;
+   color: white;
+   text-transform: uppercase;
+   transition: 0.03s;
+}
+
+.parallax{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/2.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.container-image, .container-text{
+    width: 49%;
+    display: inline-block;
+    padding: 60px 0px 60px;
+}
+
+.container-image{
+    text-align: center;
+}
+.container-text{
+    vertical-align: top;
+}
+.container-image img{
+    width: 80%;
+    border: 2px solid red;
+}
+
+.line{
+    width: 65%;
+    border: 1px solid red;
+}
+
+.container-text h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container-text p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.menu-title{
+    text-align: center;
+}
+
+.fooditem{
+    margin: 30px 20px 30px;
+    width: 22%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+ .fooditem img{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    padding: 5px;
+ }
+
+ .fooditem h4{
+    font-weight: lighter;
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    padding: 30px 70px 50px;
+ }
+
+ .red-button {
+    text-decoration: none;
+    padding: 5px 40px 5px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: 0.2s;
+ }
+
+ .red-button:hover{
+    color:red;
+    background-color: white;
+ }
+
+.delivery{
+margin-top: 60px;
+width: 32%;
+text-align: center;
+display: inline-block;
+}
+
+
+ .delivery h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom:0px ;
+ }
+
+
+ .delivery-info img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+ }
+
+.delivery-info p{
+    display: inline-block;
+}
+
+.form-heading{
+    text-align: center;
+    padding: 20px 0px 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.contact{
+   margin: 0 auto;
+   text-align: center;
+}
+
+.contact input{
+    width: 50%;
+    padding: 5px 5px 5px 10px;
+    margin: 8px 0px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px lightgray, 0px -1px 1px lightgray;
+    border: 1px solid lightgray;
+}
+
+.contact textarea{
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow:  0px 0px 1px lightgray, 0px -1px 1 px lightgray;
+    display: inline-block;
+}
+
+.form-btn{
+    text-decoration:none;
+    font-size: 24px;
+    padding: 7px 4opx 7px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: 0.2s;
+}
+
+
+.form-btn:hover{
+    background-color:white;
+    color:red;
+    font-weight: bolder;
+    border: 1px solid red;
+}
+
+
+footer{
+    background-color: #888888;
+    text-align: center;
+    margin:10px;
+    padding: 10px 0px 10px;
+}
